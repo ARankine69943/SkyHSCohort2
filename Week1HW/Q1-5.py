@@ -17,7 +17,7 @@ print(find_circumference(radius))
 
 def find_area(radius):
     pi = float(3.142)
-    return radius ^ 2 * pi
+return radius **2 * pi
 radius = int(input ("Enter radius for area: "))
 print("The area is: ")
 print(find_area(radius))
