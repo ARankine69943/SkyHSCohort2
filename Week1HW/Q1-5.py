@@ -1,4 +1,3 @@
-
 # def dog_year_conv(years):
 #     years = int(years)
 #     if years < 0:
@@ -6,7 +5,6 @@
 #     return years * 7
 # human_years = input("Enter your dogs age:")
 # print(dog_year_conv(human_years))
-
 #1
 def find_circumference(radius):
     pi = float(3.142)
@@ -15,9 +13,10 @@ radius = int(input ("Enter radius for circ:"))
 print("The circumference is: ")
 print(find_circumference(radius))
 
+
 def find_area(radius):
     pi = float(3.142)
-return radius **2 * pi
+    return radius **2 * pi
 radius = int(input ("Enter radius for area: "))
 print("The area is: ")
 print(find_area(radius))
