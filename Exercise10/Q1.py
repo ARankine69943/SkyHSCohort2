@@ -28,6 +28,6 @@ for file_name in var:
 #: Add a test to only display files that do not have a size of zero
 # print(os.path.getsize(file_name))
 
-####: Remove the leading directory name(s) from each filename before you print it - using os.path.basename()
+##: Remove the leading directory name(s) from each filename before you print it - using os.path.basename()
 # os.path.basename(file_name)
 print(os.path.basename(file_name))
